@@ -4848,6 +4848,7 @@ CorsolaEvosAttacks:
 	db 0 ; no more level-up moves
 
 RemoraidEvosAttacks:
+	db EVOLVE_ITEM, WATER_STONE, MANTINE
 	db EVOLVE_LEVEL, 25, OCTILLERY
 	db 0 ; no more evolutions
 	db 1, WRAP ; Sw/Sh move
