@@ -1,4 +1,4 @@
-	db  85,  40,  70,  70,  80, 140 ; 485 BST
+	db  90,  65,  90,  70,  80, 140 ; 535 BST
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, FLYING ; type
@@ -9,7 +9,7 @@
 	dn GENDER_F50, 4 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/mantine/front.dimensions"
 	abilities_for MANTINE, SWIFT_SWIM, WATER_ABSORB, WATER_VEIL
-	db GROWTH_SLOW ; growth rate
+	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_WATER_1, EGG_WATER_1 ; egg groups
 
 	ev_yield   0,   0,   0,   0,   0,   2
